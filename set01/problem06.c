@@ -18,7 +18,7 @@ void compare(int a,int b,int c, int *largest)
     {
         *largest=b;
     }
-    else if(c>a)
+    else if(c>b)
     {
         *largest=c;
     }
@@ -36,3 +36,9 @@ int main()
     return 0;
 
 }
+
+//Questions.
+
+//1. where is the calling function and called function placed?
+//2. can main as a function can be called by other functins?
+//  
