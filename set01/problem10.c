@@ -12,7 +12,7 @@ int main()
     char string1[100], string2[100];
     int result;
 
-    input_two_strings(string1, string2); 
+    input_two_strings(string1, string2);
     result = stringcompare(string1, string2); 
 
     output(string1, string2, result); 
