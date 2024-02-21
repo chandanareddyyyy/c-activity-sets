@@ -18,7 +18,7 @@ int main() {
     int n;
     Complex result;
 
-    n = get_n();
+   //n = get_n();
     Complex numbers[n];
 
     input_n_complex(n, numbers); 
