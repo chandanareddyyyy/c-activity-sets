@@ -9,9 +9,9 @@ void output(char *string1, char *string2, int result);
 
 void input_two_strings(char *string1, char *string2)
 {
-    printf("Enter the first word");
+    printf("Enter the first word/n");
     scanf("%s",string1);
-    printf("Enter the second word");
+    printf("Enter the second word/n");
     scanf("%s",string2);
     
 }
