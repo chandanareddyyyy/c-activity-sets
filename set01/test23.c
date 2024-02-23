@@ -9,9 +9,9 @@ void output(char *string1, char *string2, int result);
 
 void input_two_strings(char *string1, char *string2)
 {
-    printf("Enter the first word/n");
+    printf("Enter the first word\n");
     scanf("%s",string1);
-    printf("Enter the second word/n");
+    printf("Enter the second word\n");
     scanf("%s",string2);
     
 }
@@ -32,7 +32,7 @@ void output(char *string1, char *string2, int result)
     {
         printf("%s is greater than %s",string1,string2);
     }
-    else if(result<0){
+    if(result<0){
         printf("%s is greater than %s",string2,string1);
     }
     else{
