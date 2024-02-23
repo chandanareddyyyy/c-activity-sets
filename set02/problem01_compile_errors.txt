@@ -1,0 +1,6 @@
+Compilation started at 2/16/2024, 2:25:06 PM
+d:\PSC-Class-Activity-sets\c-activity-sets-1\set02\problem01.c: In function 'input':
+d:\PSC-Class-Activity-sets\c-activity-sets-1\set02\problem01.c:10:1: error: expected ';' before '}' token
+ }
+ ^
+Compilation finished at 2/16/2024, 2:25:06 PM
