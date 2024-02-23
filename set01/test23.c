@@ -6,12 +6,13 @@
 void input_two_strings(char *string1, char *string2);
 int stringcompare(char *string1, char *string2);
 void output(char *string1, char *string2, int result);
+
 void input_two_strings(char *string1, char *string2)
 {
     printf("Enter the first word");
-    scanf("%s",*string1);
+    scanf("%s",string1);
     printf("Enter the second word");
-    scanf("%s",*string2);
+    scanf("%s",string2);
     
 }
 int stringcompare(char *string1, char *string2)
