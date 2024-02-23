@@ -38,4 +38,14 @@ void output(char *string1, char *string2, int result)
         printf("%s and %s are equal",string1,string2);
     }
 }
+int main()
+{
+    char *string1, *string2;
+    input_two_strings(&string1, &string2);
+    int result = stringcompare(&string1, &string2);
+    output(&string1,&string2,result);
+    return 0;
 
+
+
+}
