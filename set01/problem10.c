@@ -41,6 +41,6 @@ int main()
     char string1[100], string2[100];
     input_two_strings(string1, string2);
     result = stringcompare(string1, string2);
-    output(string1,string2, result);
+    output(string1,string2,result);
 
 }
