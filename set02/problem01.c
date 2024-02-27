@@ -6,7 +6,7 @@ void output(float base, float height, float area);
 void input(float *base, float *height)
 {
     printf("Enter the base of the Triangle");
-    scanf("%f")
+    scanf("%f");
 }
 
 
