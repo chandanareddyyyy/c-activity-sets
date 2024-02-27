@@ -5,9 +5,9 @@ void find_area(float base , float height, float *area);
 void output(float base, float height, float area);
 void input(float *base, float *height)
 {
-    printf("Enter the base of the Triangle");
+    printf("Enter the base of the Triangle\n");
     scanf("%f",base);
-    printf("Enter the Height of the Triangle");
+    printf("Enter the Height of the Triangle\n");
     scanf("%f",height);
 }
 void find_area(float base , float height, float *area)
@@ -16,7 +16,7 @@ void find_area(float base , float height, float *area)
 }
 void output(float base, float height, float area)
 {
-    printf("the Area of the Triangle is %.2f",area);
+    printf("the Area of the Triangle is %.2f\n",area);
 }
 int main ()
 {
