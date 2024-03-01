@@ -6,6 +6,7 @@ int sum_composite_numbers(int n, int a[n]);
 void output(int sum);
 int input_array_size()
 {
-    
+    printf("Enter the array size");
+    scanf("%d",a[n]);
 }
 
