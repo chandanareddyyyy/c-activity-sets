@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form" onsubmit="return validation()">
+        <h1>Registration</h1><br>
+
+        <label for="name">Name: </label>
+        <input type="text" id = "name" name="name"> <br>
+
+        <label for="USNNo">USN Number: </label>
+        <input type="USNNo" id = "USNNo" name="USNNo"> <br>
+
+        <label for="mobile">mobile Number: </label>
+        <input type="text" id = "mobile" name="mobile"> <br>
+        
+        <label for="mail">mail Id: </label>
+        <input type="email" id = "mail" name="mail"> <br>
+
+        <label for="password">Password: </label>
+        <input type="password" id = "password" name="password"> <br>
+
+        <label for="country">country: </label>
+        <select id="">
+            <option>Pakistan</option>
+            <option>China</option>
+            <option>Russian</option>
+            <option>Gotham</option>  
+        </select><br>
+
+        <label for="course">course: </label>
+        <input type="text" id = "course" name="course"> <br>
+
+        <label for="address">address: </label>
+        <input type="address" id = "address" name="address"> <br>
+
+
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <script>
+            function validation(){
+                var name=document.forms['form']['name'].value;
+                var USNNo=document.forms['form']['USNNo'].value;
+                var mobile = document.forms['form']['mobile'].value;
+                var email = document.forms['form']['mail'].value;
+                var password=document.forms['form']['password'].value;
+                var country=document.forms['form']['country'].value;
+                var course=document.forms['form']['course'].value;
+                var address=document.forms['form']['address'].value;
+
+                if(mobile.length!=10 || isNaN(mobile)){
+                    alert("Mobile number should be exactly 10 digits");
+                    return false
+                }
+                else if(password.length<6){
+                    alert("PAssword must be more than 6 characters");
+                    return false
+                }
+                else if(!/(?=.*\d)(?=.*[a-zA-Z])(?=.*[0-9a-zA-Z])/.test(password)){
+                    alert("Password must conatin atleast one char, onr symbol and one digit");
+                    return False
+                }
+                else if (name==''|| USNNO==''||email==''||mobile==''||password==''|| country==''||course==''||address==''){
+                    alert("All the fields are mandatory")
+                    return false
+                }
+                return true
+
+            }
+
+    </script>
+    
+</body>
+</html>
