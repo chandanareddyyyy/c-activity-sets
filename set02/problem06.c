@@ -11,7 +11,10 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
- 
+ while(*str!='\0')
+ {
+    rev_str=str;
+ }
 }
 void output(char *a, char *reverse_a)
 {
