@@ -19,12 +19,11 @@ int find_gcd(int a, int b)
     }
     else{ x=b;
     }
-    for(int i=x ;i=0;i--)
+    for(int i=x;i=0;i--)
     {
            if(a%i==0&&b%i==0)
            {
              return i;
-             
            }
         
     }
