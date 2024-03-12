@@ -18,5 +18,5 @@ Triangle input_triangle()
 }
 void find_area(Triangle *t)
 {
-
+  
 }
