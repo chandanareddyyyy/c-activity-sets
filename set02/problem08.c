@@ -25,7 +25,7 @@ void input_n_triangles(int n, Triangle t[n])
 	scanf("%f",t[i,i]);
 		}
 }
-void find_area
+void find_area(Triangle *t)
 {
 	t->area=(0.5*(t->base*t->altitude));
 }
