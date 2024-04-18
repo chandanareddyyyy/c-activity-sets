@@ -13,7 +13,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
 Triangle input_triangle()
 {
-	
+	Triangle n;
    printf("Enter the Number of Triangles you wanna compare ");
    scanf("%d",&n);
    return n;
